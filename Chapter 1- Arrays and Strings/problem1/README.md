@@ -26,4 +26,14 @@ def isUnique(string):
         return True
 ```
 
-
+Well, lets be honest we can improve this further, instead of checking at the end (which would make the complexity `O(n)`, we can instead check it as we go making it say No, once it finds a repeared letter. which makes it smaller than `O(n)`, but not considerably.
+```
+def isUnique(string):
+    charStore = []
+    for i in string:
+        if(i.lower() not in charStore):
+            charStore.append(i.lower())
+        else:
+            return False
+    return True
+```
