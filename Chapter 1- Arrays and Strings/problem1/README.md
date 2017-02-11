@@ -37,3 +37,14 @@ def isUnique(string):
             return False
     return True
 ```
+
+---
+Now say we cant use data-structures, the obvious way to do it is to compare character by character, through 2-loops, which makes the complexity `O(n^2)`. For example
+```
+def isUnique(string):
+    for i in range(0, len(string)):
+        for j in range(1, len(string)):
+            if(j!= i and string[i]==string[j]):
+                return False
+    return True
+```
