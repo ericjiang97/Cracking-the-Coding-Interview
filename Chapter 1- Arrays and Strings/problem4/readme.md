@@ -56,5 +56,5 @@ def palinChk(string):
                 if oddnumCount == 0:
                     oddnumCount += 1
                 else:
-                    return Fals
+                    return False
 ```
