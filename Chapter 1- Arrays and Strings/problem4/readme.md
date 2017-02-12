@@ -19,3 +19,42 @@ So the two conditions are:
   - every other character/letter must be even
 - if the length of the string is **even**
   - every character/letter must be even
+
+---
+# Solution 1
+So in order to perform the check, we must construct two things, 1) a searching algorithm, 2) the main function must construction a dictionary which counts the number of characters, and then check it based on the two statements as shown above. As this is the first solution, we can make it as complex as possible.
+```
+def linearSearch(array, target, position):
+    for i in range(len(array)):
+        if array[i][position] == target:
+            return i
+    return -1
+
+
+def palinChk(string):
+    strippedString = string.replace(' ', '')
+    array=list(strippedString)
+    tempArray = []
+    for i in range(len(array)):
+        search = linearSearch(tempArray,array[i],0)
+        if search == -1:
+            tempArray.append([array[i],1])
+        else:
+            tempArray[search][1] += 1
+
+    if(len(string) % 2 == 0):
+        #it is even, expect there to be no odd numbers
+        for i in range(len(tempArray)):
+            if(tempArray[i][1] % 2 == 1):
+                return False
+        return True
+    else:
+        #expect only 1 character to be even
+        oddnumCount = 0
+        for i in range(len(tempArray)):
+            if(tempArray[i][1] % 2 == 1):
+                if oddnumCount == 0:
+                    oddnumCount += 1
+                else:
+                    return Fals
+```
