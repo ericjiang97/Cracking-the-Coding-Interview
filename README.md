@@ -1,6 +1,9 @@
 # Cracking-the-Coding-Interview
 A Collection of Potential Solutions to the Book
 
+# Contents
+[https://github.com/lorderikir/Cracking-the-Coding-Interview/tree/master/Chapter%201-%20Arrays%20and%20Strings](Chapter 1)
+
 # License
 MIT License
 
