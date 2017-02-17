@@ -1,5 +1,12 @@
-# Cracking-the-Coding-Interview
+# Cracking the Coding Interview
 A Collection of Potential Solutions to the Book
+
+# Introduction
+Hi there, thanks for visitng this repo, it means alot to me that you even found this repo. This is just a general repo where I store and write potential solutions to _Craking the Coding Interview 6th Edition_, it is a really great book, I would recommend you to buy this amazing book.
+
+Ok, first things first. I am still an University student, even though I am **not** a Computer Science student, I still have developed a love and interest in algorithms, coding and software security. Knowing the code means you can perform Security tests on vulnerable web applications and code, but that's another story for another day. 
+
+Well, that's it then, once again thanks for visiting this repository. I would love if you can also give me feedback on where I've done wrong, or even perhaps, draft on new solutions. Or even give this repo a star.
 
 # Contents
 - [Chapter 1 - Arrays and Strings](https://github.com/lorderikir/Cracking-the-Coding-Interview/tree/master/Chapter%201-%20Arrays%20and%20Strings)
