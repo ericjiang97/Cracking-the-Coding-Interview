@@ -2,6 +2,7 @@
 _**String Rotation**: Assume you have a method `isSubstring` which checks if one word is substring of another. Given two strings, 
 `s1` and `s2`, write code to check if `s2` is a rotation of `s1` using one call to `isSubstring` (e.g. "waterbottle" is a rotation 
 of "erbottlewat"_
+
 ---
 _To be honest, this algorithm took way too long for me to figure out, well I sort of knew what to do, but writing it out was fairly difficult and thanks to the beauty of Python, where I can specify `string[j:k]` to get a part of the string, I sort of am lucky, but if I was using another language such as JavaScript or Java (or C#), this would have taken way longer_
 
