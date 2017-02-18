@@ -30,3 +30,20 @@ def subString(s1,s2):
 
 
 ```
+But there is some problems with this solution, first of all the length of `s1` has to equal the length of `s2`.
+
+```
+def subString(s1,s2):
+    begin = s1[0]
+    if(len(s1)==len(s2)):
+        for j in range(len(s2)):
+            print(j, s2[j])
+            if(s2[j] == begin):
+                if((str(s2[j:len(s2)])+str(s2[0:j]))==str(s1)):
+                    return True
+        return False
+    else:
+        return False
+    
+print(subString("waterbottle","ttlewaterbo"))
+```
